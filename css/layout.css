@@ -1,0 +1,105 @@
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+#container {
+	width: 100%;
+	background-color: #333333;
+}
+
+#header {
+	clear: both;
+	text-align: center;
+	text-shadow: 0px 5px 7px rgba(33, 33, 33, 1);
+}
+
+#header h1 {
+	font-size: 3em;
+}
+
+#header p {
+	font-size: 1.2em;
+}
+
+#content {
+	width: 800px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	clear: both;
+}
+
+#footer {
+	background: black;
+	background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#000));
+	background: -moz-linear-gradient(top, #191919, #000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#000");
+	border-top: 1px solid rgba(10, 10, 10, 0.2);
+	margin-top: 10px;
+	clear: both;
+	width: 100%;
+	font-size: 0.8em;
+	text-align: center;
+	color: #aaaaaa;
+	padding-top: 10px;
+}
+
+#footer p {
+	padding: 2px 0px 10px 0px;
+	margin: 0px;
+}
+
+#content img {
+	text-align: center;
+}
+
+.download a {
+	color: black;
+	-webkit-transition: color .1s linear;
+	-moz-transition: color .1s linear;
+	transition: color .1s linear;
+	width: 250px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.download a:hover {
+	color: white;
+}
+
+.lightgrey {
+	color:#000;
+	background: #E1E1E1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E1E1E1), to(#B8B8B8));
+	background: -moz-linear-gradient(top, #E1E1E1, #B8B8B8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E1E1E1", endColorstr="#B8B8B8");
+}
+
+.button {
+	padding:10px 20px 10px 20px;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:0px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+	margin: 5px;
+
+	-moz-box-shadow: 0px 1px 0px #0a2e74; 
+	-webkit-box-shadow: 0px 1px 0px #0a2e74;
+	box-shadow: 0 2px 4px rgba(0,0,0,.6);
+	cursor:pointer
+}
